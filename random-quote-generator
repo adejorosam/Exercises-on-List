@@ -1,0 +1,14 @@
+'''Write a simple quote-of-the-day program. The program should contain a list of quotes, and
+when the user runs the program, a randomly selected quote should be printed.'''
+from random import choice
+L=[
+    'Nothing comes easy.',
+    'Everything comes through a dint of hard work.',
+    'Success is 99% inspiration and 1% perspiration.',
+    'Impossible is nothing.',
+    'Impossible is a word not to be found in the dictionary of those that dare.',
+    'We are here to make a dent on the universe.'
+    'It is amazing how much you can accomplish if you do not care who gets the credit'
+    'A clear vision backed by definite plans, gives you a tremendous feeling of confidence and professional power'
+   ]
+print(choice(L))
