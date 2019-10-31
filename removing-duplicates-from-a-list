@@ -1,0 +1,10 @@
+'''
+Write a program that removes any repeated items from a list so that each item appears at most
+once. For instance, the list [1,1,2,3,4,3,0,0] would become [1,2,3,4,0].
+'''
+
+List = [1,1,2,3,4,3,0,0]
+for i in List:
+  if List.count(i)>1:
+    List.remove(i)
+print(List)
